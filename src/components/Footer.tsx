@@ -5,9 +5,9 @@ import { Input } from './ui/input';
 import { useState } from 'react';
 
 const socialLinks = [
-  { icon: Facebook, href: '#', name: 'Facebook' },
-  { icon: Twitter, href: '#', name: 'Twitter' },
-  { icon: Instagram, href: '#', name: 'Instagram' },
+  { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61569832496494&mibextid=ZbWKwL', name: 'Facebook' },
+  { icon: Twitter, href: 'tiktok.com/@happierhome01', name: 'Twitter' },
+  { icon: Instagram, href: 'https://www.instagram.com/happierhome1?igsh=MTFkY2F3NGl1emYzbg==', name: 'Instagram' },
   { icon: Youtube, href: '#', name: 'YouTube' }
 ];
 
@@ -144,21 +144,21 @@ export function Footer() {
                 whileHover={{ x: 5, color: '#60A5FA' }}
               >
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span>1800-HAPPIER (1800-427-7437)</span>
+                <span>9841146926 / 9846089085 </span>
               </motion.div>
               <motion.div
                 className="flex items-center space-x-3 text-gray-300"
                 whileHover={{ x: 5, color: '#60A5FA' }}
               >
                 <Mail className="w-5 h-5 text-green-400" />
-                <span>support@happierhome.com</span>
+                <span>Happierhome7@gmail.com</span>
               </motion.div>
               <motion.div
                 className="flex items-center space-x-3 text-gray-300"
                 whileHover={{ x: 5, color: '#60A5FA' }}
               >
                 <MapPin className="w-5 h-5 text-purple-400" />
-                <span>Mumbai, Delhi, Bangalore & 200+ cities</span>
+                <span>koteshwor Kathmandu, Nepal 44600</span>
               </motion.div>
             </div>
           </motion.div>
